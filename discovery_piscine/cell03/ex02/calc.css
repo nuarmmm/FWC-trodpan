@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.calculator {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input,
+select {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#tryMe {
+    cursor: pointer;
+}
